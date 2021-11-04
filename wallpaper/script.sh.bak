@@ -1,0 +1,7 @@
+#!/bin/bash
+if pgrep xwinwrap
+then
+pkill xwinwrap
+fi
+sleep 1;
+xwinwrap -ov -fs -g 1366x768 -- mplayer -loop 0 -fixed-vo -wid WID -ao null -noconsolecontrols -fs /home/user/.config/wallpaper/wallpaper.mp4

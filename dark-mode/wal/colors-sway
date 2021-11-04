@@ -1,0 +1,21 @@
+set $wallpaper /home/user/.config/dark-mode/pywal-sample/pywal-sample.jpg
+
+set $background #0E0B12
+set $foreground #91bab4
+
+set $color0 #0E0B12
+set $color1 #81002c
+set $color2 #7a0079
+set $color3 #007972
+set $color4 #a80032
+set $color5 #c30045
+set $color6 #fe075d
+set $color7 #91bab4
+set $color8 #65827d
+set $color9 #81002c
+set $color10 #7a0079
+set $color11 #007972
+set $color12 #a80032
+set $color13 #c30045
+set $color14 #fe075d
+set $color15 #91bab4

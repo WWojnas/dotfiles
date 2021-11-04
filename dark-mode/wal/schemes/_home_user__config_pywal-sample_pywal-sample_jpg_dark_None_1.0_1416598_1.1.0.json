@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/user/.config/pywal-sample/pywal-sample.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0E0B12",
+        "foreground": "#91bab4",
+        "cursor": "#91bab4"
+    },
+    "colors": {
+        "color0": "#0E0B12",
+        "color1": "#81002c",
+        "color2": "#7a0079",
+        "color3": "#007972",
+        "color4": "#a80032",
+        "color5": "#c30045",
+        "color6": "#fe075d",
+        "color7": "#91bab4",
+        "color8": "#65827d",
+        "color9": "#81002c",
+        "color10": "#7a0079",
+        "color11": "#007972",
+        "color12": "#a80032",
+        "color13": "#c30045",
+        "color14": "#fe075d",
+        "color15": "#91bab4"
+    }
+}

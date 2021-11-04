@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/user/.config/dark-mode/pywal-sample/pywal-sample.jpg"
+let background = "#0E0B12"
+let foreground = "#91bab4"
+let cursor     = "#91bab4"
+
+" Colors
+let color0  = "#0E0B12"
+let color1  = "#81002c"
+let color2  = "#7a0079"
+let color3  = "#007972"
+let color4  = "#a80032"
+let color5  = "#c30045"
+let color6  = "#fe075d"
+let color7  = "#91bab4"
+let color8  = "#65827d"
+let color9  = "#81002c"
+let color10 = "#7a0079"
+let color11 = "#007972"
+let color12 = "#a80032"
+let color13 = "#c30045"
+let color14 = "#fe075d"
+let color15 = "#91bab4"
