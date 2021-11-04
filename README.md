@@ -19,9 +19,10 @@ End Credits dark cyberpunk wallpaper / Psyops Pyke light wallpaper
 
 # Darkmode
 
-
+<img src="https://github.com/WWojnas/dotfiles/blob/master/dark.png">
 
 ---
 
-
 # Lightmode
+
+<img src="https://github.com/WWojnas/dotfiles/blob/master/light.png">
