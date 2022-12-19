@@ -46,7 +46,8 @@ To fix that you will need to modify polybar config
 -> For Fan RPM you will have to change path for file which has value of rpm for your fan in polybar/cuts/user_modules.ini<br>
 -> For powerdraw you will have to change path for files in polybar/scripts/powerdraw.sh which have value of voltage and amparage of your battery those files you can find in /sys/class/hwmon/ <br>
 You will have to change paths to hardware monitors in script 
-3. Wallpaper isn't set
+3. Wallpaper isn't set <br>
+
 Put absolute path to your home directory in .config/nitrogen/* (you will know where ;p)
 ---
 # Darkmode
