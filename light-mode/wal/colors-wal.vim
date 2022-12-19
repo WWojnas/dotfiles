@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/user/.config/light-mode/wallpaper/wallpaper.jpg"
+let background = "#edeff8"
+let foreground = "#13111C"
+let cursor     = "#13111C"
+
+" Colors
+let color0  = "#edeff8"
+let color1  = "#1800a9"
+let color2  = "#000aba"
+let color3  = "#0046db"
+let color4  = "#0020ff"
+let color5  = "#671aff"
+let color6  = "#3a74ff"
+let color7  = "#13111C"
+let color8  = "#545a80"
+let color9  = "#1800a9"
+let color10 = "#000aba"
+let color11 = "#0046db"
+let color12 = "#0020ff"
+let color13 = "#671aff"
+let color14 = "#3a74ff"
+let color15 = "#13111C"

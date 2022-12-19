@@ -3,7 +3,7 @@
 @import "colors.rasi"
 
 * {
-    background-color:       @bg	;
+    background-color:       @bga;
     text-color:             @fg;
 	font:				 	"Iosevka Nerd Font 10";
 }
@@ -20,6 +20,6 @@ window {
 
 entry {
     expand: 				true;
-    text-color:				@fg;
+    text-color:				@ac;
 }
 

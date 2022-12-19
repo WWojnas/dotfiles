@@ -820,8 +820,8 @@ colors:
     cursor:     '#91bab4'
   normal:
     black:      '#0E0B12'
-    red:        '#81002c'
-    green:      '#7a0079'
+    red:        '#B72657'
+    green:      '#FF00FC'
     yellow:     '#007972'
     blue:       '#a80032'
     magenta:    '#c30045'
@@ -829,8 +829,8 @@ colors:
     white:      '#91bab4'
   bright:
     black:      '#65827d'
-    red:        '#81002c'
-    green:      '#7a0079'
+    red:        '#B72657'
+    green:      '#FF00FC'
     yellow:     '#007972'
     blue:       '#a80032'
     magenta:    '#c30045'
@@ -839,19 +839,15 @@ colors:
 # END ACE
 font:
   normal:
-    family: monospace
-    style: Regular
+    family: Source Code Pro
 
   bold:
-    family: monospace
-    style: Bold
+    family: Source Code Pro
 
   italic:
-    family: monospace
-    style: Italic
+    family: Source Code Pro
 
   bold_italic:
-    family: monospace
-    style: Bold Italic
+    family: Source Code Pro
 
-  size: 7
+  size: 7 

@@ -56,7 +56,7 @@ entry {
     placeholder-color:              @fg;
     expand:                         true;
     horizontal-align:               0;
-    placeholder:                    "Search...";
+    placeholder:                    "Szukaj...";
     padding:                        0px 0px 0px 5px;
     blink:                          true;
 }

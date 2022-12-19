@@ -1,0 +1,21 @@
+set $wallpaper /home/user/.config/light-mode/wallpaper/wallpaper.jpg
+
+set $background #edeff8
+set $foreground #13111C
+
+set $color0 #edeff8
+set $color1 #1800a9
+set $color2 #000aba
+set $color3 #0046db
+set $color4 #0020ff
+set $color5 #671aff
+set $color6 #3a74ff
+set $color7 #13111C
+set $color8 #545a80
+set $color9 #1800a9
+set $color10 #000aba
+set $color11 #0046db
+set $color12 #0020ff
+set $color13 #671aff
+set $color14 #3a74ff
+set $color15 #13111C

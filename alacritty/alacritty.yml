@@ -813,29 +813,29 @@
 # BEGIN ACE
 colors:
   primary:
-    background: '#edeff8'
-    foreground: '#13111C'
+    background: '#0E0B12'
+    foreground: '#91bab4'
   cursor:
-    text:       '#edeff8'
-    cursor:     '#13111C'
+    text:       '#0E0B12'
+    cursor:     '#91bab4'
   normal:
-    black:      '#edeff8'
-    red:        '#1800a9'
-    green:      '#000aba'
-    yellow:     '#0046db'
-    blue:       '#0020ff'
-    magenta:    '#671aff'
-    cyan:       '#3a74ff'
-    white:      '#13111C'
+    black:      '#0E0B12'
+    red:        '#81002c'
+    green:      '#7a0079'
+    yellow:     '#007972'
+    blue:       '#a80032'
+    magenta:    '#c30045'
+    cyan:       '#fe075d'
+    white:      '#91bab4'
   bright:
-    black:      '#545a80'
-    red:        '#1800a9'
-    green:      '#000aba'
-    yellow:     '#0046db'
-    blue:       '#0020ff'
-    magenta:    '#671aff'
-    cyan:       '#3a74ff'
-    white:      '#13111C'
+    black:      '#65827d'
+    red:        '#81002c'
+    green:      '#7a0079'
+    yellow:     '#007972'
+    blue:       '#a80032'
+    magenta:    '#c30045'
+    cyan:       '#fe075d'
+    white:      '#91bab4'
 # END ACE
 font:
   normal:
@@ -850,4 +850,4 @@ font:
   bold_italic:
     family: Source Code Pro
 
-  size: 7 
+  size: 9

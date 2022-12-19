@@ -11,24 +11,24 @@ uptime=$(uptime -p | sed -e 's/up //g')
 rofi_command="rofi -theme $dir/powermenu.rasi"
 
 # Options
-shutdown=" Shutdown"
-reboot=" Reboot"
-lock=" Lock"
-suspend=" Suspend"
-logout=" Logout"
+shutdown=" Zamknij"
+reboot=" Resetuj"
+lock=" Zablokuj"
+suspend=" Uśpij"
+logout=" Wyloguj"
 
 # Confirmation
 confirm_exit() {
 	rofi -dmenu\
 		-i\
 		-no-fixed-num-lines\
-		-p "Are you sure ? : "\
+		-p "Na pewno ? : "\
 		-theme $dir/confirm.rasi
 }
 
 # Message
 msg() {
-	rofi -theme "$dir/message.rasi" -e "Available Options  -  Yes / y / No / n"
+	rofi -theme "$dir/message.rasi" -e "Dostępne Opcje  -  Tak / y / Nie / n"
 }
 
 # Variable passed to rofi
@@ -39,7 +39,7 @@ case $chosen in
     $shutdown)
 		ans=$(confirm_exit &)
 		if [[ $ans == "yes" || $ans == "YES" || $ans == "y" || $ans == "Y" ]]; then
-			systemctl poweroff
+			shutdown --no-wall now
 		elif [[ $ans == "no" || $ans == "NO" || $ans == "n" || $ans == "N" ]]; then
 			exit 0
         else
