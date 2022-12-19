@@ -1,6 +1,6 @@
 # dotfiles
 End Credits dark cyberpunk wallpaper / Psyops Pyke light wallpaper
-
+Polybar theme is made by [adi1090x](https://github.com/adi1090x) from this [repository](https://github.com/adi1090x/polybar-themes) I just made some modification to fit my needs
 
 ---
 
@@ -40,9 +40,13 @@ Apart from those keybinds everything is default from i3
 ---
 # Things that might break
 
-1. Temperature, rpm, watt, backlight, battery, wired-network, wireless-network module <br>
+1. Temperature, backlight, battery, wired-network, wireless-network module <br>
 To fix that you will need to modify polybar config
-2. Wallpaper isn't set
+2. Fan RPM, Powerdraw module are broken <br>
+-> For Fan RPM you will have to change path for file which has value of rpm for your fan in polybar/cuts/user_modules.ini
+-> For powerdraw you will have to change path for files in polybar/scripts/powerdraw.sh which have value of voltage and amparage of your battery those files you can find in /sys/class/hwmon/
+You will have to change paths to hardware monitors in script 
+3. Wallpaper isn't set
 Put absolute path to your home directory in .config/nitrogen/* (you will know where ;p)
 ---
 # Darkmode
