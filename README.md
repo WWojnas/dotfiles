@@ -41,14 +41,14 @@ Apart from those keybinds everything is default from i3
 # Things that might break
 
 1. Temperature, backlight, battery, wired-network, wireless-network module <br>
-To fix that you will need to modify polybar config
+-> To fix that you will need to modify polybar config
 2. Fan RPM, Powerdraw module are broken <br>
 -> For Fan RPM you will have to change path for file which has value of rpm for your fan in polybar/cuts/user_modules.ini<br>
 -> For powerdraw you will have to change path for files in polybar/scripts/powerdraw.sh which have value of voltage and amparage of your battery those files you can find in /sys/class/hwmon/ <br>
 You will have to change paths to hardware monitors in script 
 3. Wallpaper isn't set <br>
+-> Put absolute path to your home directory in .config/nitrogen/* (you will know where ;p)
 
-Put absolute path to your home directory in .config/nitrogen/* (you will know where ;p)
 ---
 # Darkmode
 
